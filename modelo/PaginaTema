@@ -1,0 +1,31 @@
+<?php
+    class PaginaTema {
+        var $fkIdPagina;
+        var $fkIdTema;
+        
+
+    function __construct($fkIdPagina, $fkIdTema) {
+        $this->fkIdPagina = $fkIdPagina;
+        $this->fkIdTema = $fkIdTema;
+
+    }
+
+    function getFKIdPagina() {
+        return $this->fkIdPagina;
+    }
+
+    function setFKIdPagina($fkIdPagina) {
+        $this->fkIdPagina = $fkIdPagina;
+    }
+
+    function getFKIdTema() {
+        return $this->fkIdRecurso;
+    }
+
+    function setFKIdTema($fkIdTema) {
+        $this->fkIdTema = $fkIdTema;
+    }
+
+}
+
+?>
